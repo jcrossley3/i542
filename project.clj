@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.immutant/messaging "2.0.0-beta2"]]
   :main i542.core
-  :profiles {:dev {:dependencies [[org.immutant/deploy-tools "2.0.4"]
-                                  [org.immutant/fntest "2.0.3"]]}})
+  :profiles {:dev {:dependencies [[org.immutant/fntest "2.0.4"]]}})
