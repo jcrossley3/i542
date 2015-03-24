@@ -1,6 +1,5 @@
-(ns i542.core)
+(ns i542.core
+  (:require [immutant.messaging :as msg]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main [& _]
+  (msg/queue "/queue/i542", :durable? false))

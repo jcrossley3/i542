@@ -1,14 +1,13 @@
 # i542
 
-A Clojure library designed to ... well, that part is up to you.
+Demonstrates [IMMUTANT-542](https://issues.jboss.org/browse/IMMUTANT-542)
 
 ## Usage
 
-FIXME
+Ensure your WILDFLY install (8.2 or higher) has a user with 'testuser'
+for both its username and password and then set WILDFLY_HOME and
+run 'lein test'
+    
+    $ export WILDFLY_HOME=/path/to/your/wildfly
+    $ lein test
 
-## License
-
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
